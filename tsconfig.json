@@ -1,10 +1,4 @@
 {
 	"files": [],
-	"references": [
-		{ "path": "packages/shared" },
-		{ "path": "packages/react" },
-		{ "path": "packages/nextjs" },
-		{ "path": "packages/sveltekit" },
-		{ "path": "packages/remix" }
-	]
+	"references": [{ "path": "packages/shared" }, { "path": "packages/webextension" }]
 }

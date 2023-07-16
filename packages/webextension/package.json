@@ -1,0 +1,38 @@
+{
+	"name": "webextension",
+	"version": "0.0.1",
+	"description": "Auth utilities for working using Supabase in Web extensions.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"lint": "tsc",
+		"build": "tsup",
+		"clean:all": "rimraf dist node_modules"
+	},
+	"keywords": [
+		"Supabase",
+		"Auth",
+		"Chrome extension"
+	],
+	"author": "Jesco Wuester",
+	"license": "MIT",
+	"devDependencies": {
+		"@supabase/supabase-js": "2.19.0",
+		"@types/webextension-polyfill": "^0.10.1",
+		"config": "workspace:*",
+		"rimraf": "^4.1.1",
+		"tsconfig": "workspace:*",
+		"tslib": "^2.4.1",
+		"tsup": "^6.5.0"
+	},
+	"dependencies": {
+		"@supabase/auth-helpers-shared": "^0.4.1"
+	},
+	"peerDependencies": {
+		"@supabase/supabase-js": "^2.19.0",
+		"webextension-polyfill": "^0.10.0"
+	}
+}

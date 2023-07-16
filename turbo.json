@@ -2,15 +2,15 @@
 	"pipeline": {
 		"build": {
 			"dependsOn": ["^build"],
-			"outputs": ["dist/**", ".next/**", ".svelte-kit/**"]
+			"outputs": ["dist/**"]
 		},
 		"build:example": {
 			"dependsOn": ["^build", "^build:example"],
-			"outputs": ["dist/**", ".next/**", ".svelte-kit/**"]
+			"outputs": ["dist/**"]
 		},
 		"build:watch": {
 			"dependsOn": ["^build:watch"],
-			"outputs": ["dist/**", ".next/**", ".svelte-kit/**"]
+			"outputs": ["dist/**"]
 		},
 		"clean:all": {
 			"dependsOn": ["^clean:all"],

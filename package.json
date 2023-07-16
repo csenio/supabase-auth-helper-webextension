@@ -1,5 +1,5 @@
 {
-	"name": "@supabase/auth-helpers",
+	"name": "@csen/supabase-auth-helpers",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
